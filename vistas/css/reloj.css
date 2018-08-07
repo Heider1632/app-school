@@ -1,0 +1,32 @@
+.fecha p, .reloj p {
+	display: inline-block;
+	line-height: 0.2em;
+}
+
+.fecha {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size:1em;
+	/*margin-bottom: 5px;*/
+	width: 100%;
+}
+
+.reloj {
+	font-family: Oswald, Arial;
+	width: 100%;
+	padding: 20px;
+	font-size: 2em;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	border-radius: 20px;
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 1rem;
+	display: block;
+}
